@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  max-width: 1440px;
+  padding: 163px 260px 239px 260px;
+  flex-direction: column;
+  align-items: center;
+  gap: 87.864px;
+  background: #c5e4e7;
+}
+
+main {
+  width: 920px;
+  height: 481px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.2);
+  display: flex;
+  padding-left: 48px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+}
+main .leftSide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+main .leftSide .billInput {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+main .leftSide .billInput label {
+  color: #5e7a7d;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .billInput #BillInput {
+  width: 379px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #f3f9fa;
+  border: none;
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 17px;
+}
+main .leftSide .billInput #BillInput::-moz-placeholder {
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .billInput #BillInput::placeholder {
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .billInput #BillInput:focus {
+  outline-color: #26c2ae;
+}
+main .leftSide .billInput div {
+  position: relative;
+}
+main .leftSide .billInput div svg {
+  position: absolute;
+  left: 19.26px;
+  top: 14px;
+}
+main .leftSide .precentigeBtn .gridbtn {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 19px;
+}
+main .leftSide .precentigeBtn .gridbtn .precentig,
+main .leftSide .precentigeBtn .gridbtn #customInput {
+  width: 117px;
+  height: 48px;
+  flex-shrink: 0;
+}
+main .leftSide .precentigeBtn .gridbtn .onlyBtn {
+  border-radius: 5px;
+  background: #00474b;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+main .leftSide .precentigeBtn .gridbtn .onlyBtn:focus {
+  background: #9fe8df;
+}
+main .leftSide .precentigeBtn .gridbtn #customInput {
+  color: #00474b;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .precentigeBtn .gridbtn #customInput::-moz-placeholder {
+  color: #547878;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .precentigeBtn .gridbtn #customInput::placeholder {
+  color: #547878;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .precentigeBtn .gridbtn #customInput:focus {
+  outline-color: #26c2ae;
+}
+main .leftSide .precentigeBtn h3 {
+  color: #5e7a7d;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+main .leftSide .People .zero {
+  display: flex;
+  justify-content: space-between;
+}
+main .leftSide .People .zero .erroOnPeople {
+  padding-right: 10px;
+  color: #e17457;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .People .zero h3 {
+  color: #5e7a7d;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .People .NumberOfPeople {
+  width: 379px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 17px;
+  border-radius: 5px;
+  background: #f3f9fa;
+  border: none;
+}
+main .leftSide .People .NumberOfPeople::-moz-placeholder {
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .People .NumberOfPeople::placeholder {
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .leftSide .People .NumberOfPeople:focus {
+  outline-color: #26c2ae;
+}
+main .RightSide {
+  width: 413px;
+  height: 417px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #00474b;
+}
+main .RightSide .TipAmount {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 40px;
+  padding-top: 56px;
+}
+main .RightSide .TipAmount p {
+  color: #26c2ae;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1px;
+}
+main .RightSide .TipAmount .prePerson p {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .RightSide .TipAmount .prePerson i {
+  color: #7f9d9f;
+  font-family: "Space Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .RightSide .TipAmount .prePerson .Total {
+  text-align: left;
+}
+main .RightSide .reset {
+  width: 333px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #26c2ae;
+  border: none;
+  margin-inline: 40px;
+  margin-top: 80px;
+  color: #00474b;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+main .RightSide .reset:active {
+  background: #9fe8df;
+}
+
+.if0 {
+  width: 379px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #00474b;
+  text-align: right;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 17px;
+  border-radius: 5px;
+  background: #f3f9fa;
+  border: none;
+  border: 1px solid #e17052;
+}
+
+.if1 {
+  border: 1px solid #e17052 !important;
+}
+
+.outlineEroor {
+  outline-color: #e17052;
+}
+
+.hidden {
+  display: none;
+}
+
+.disabled {
+  background: #0d686d;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: auto;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    width: 375px;
+    height: 789px;
+    flex-shrink: 0;
+    padding-left: 0px;
+    justify-content: center;
+  }
+  main .leftSide {
+    align-items: center;
+  }
+  main .leftSide #BillInput {
+    max-width: 311px;
+    max-height: 48px;
+    flex-shrink: 0;
+  }
+  main .leftSide .People .NumberOfPeople {
+    width: 311px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  main .precentigeBtn .gridbtn {
+    grid-template-columns: repeat(2, auto) !important;
+  }
+  main .precentigeBtn .gridbtn .precentig,
+  main .precentigeBtn .gridbtn #customInput {
+    max-width: 146.631px;
+    max-height: 48px;
+    flex-shrink: 0;
+  }
+  .RightSide {
+    max-width: 327px;
+    max-height: 257px;
+    flex-shrink: 0;
+  }
+  .RightSide .TipAmount {
+    padding-inline: 0px !important;
+    padding-top: 0px !important;
+    padding-inline: 22px !important;
+    padding-top: 25px !important;
+  }
+  .RightSide .TipAmount .TipAmountPrePerson,
+  .RightSide .TipAmount .TotalPrePerson {
+    font-size: 32px;
+  }
+  .RightSide .reset {
+    margin-top: 35px !important;
+    margin-inline: 22px !important;
+    max-width: 281px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
